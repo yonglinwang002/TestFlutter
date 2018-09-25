@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1469793215A8562007513D0 /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = F1469792215A8562007513D0 /* flutter_assets */; };
 		F1E124B6215A27DA001B56CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E124B5215A27DA001B56CE /* AppDelegate.m */; };
 		F1E124B9215A27DA001B56CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E124B8215A27DA001B56CE /* ViewController.m */; };
 		F1E124BC215A27DA001B56CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E124BA215A27DA001B56CE /* Main.storyboard */; };
 		F1E124BE215A27DB001B56CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E124BD215A27DB001B56CE /* Assets.xcassets */; };
 		F1E124C1215A27DB001B56CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E124BF215A27DB001B56CE /* LaunchScreen.storyboard */; };
 		F1E124C4215A27DB001B56CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E124C3215A27DB001B56CE /* main.m */; };
+		F1E124CC215A2C39001B56CE /* Flutter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F1E124CB215A2C39001B56CE /* Flutter.xcconfig */; };
+		F1E124CE215A2C86001B56CE /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F1E124CD215A2C86001B56CE /* Debug.xcconfig */; };
+		F1E124D0215A2CA0001B56CE /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F1E124CF215A2CA0001B56CE /* Release.xcconfig */; };
+		F1E124E5215A2F38001B56CE /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E124DC215A2F38001B56CE /* Flutter.framework */; };
+		F1E124E7215A2F6E001B56CE /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1E124DC215A2F38001B56CE /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F1E124E8215A2F6F001B56CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F1E124E7215A2F6E001B56CE /* Flutter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F1469792215A8562007513D0 /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
 		F1E124B1215A27DA001B56CE /* TestFlutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFlutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E124B4215A27DA001B56CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1E124B5215A27DA001B56CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +47,10 @@
 		F1E124C0215A27DB001B56CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1E124C2215A27DB001B56CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E124C3215A27DB001B56CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1E124CB215A2C39001B56CE /* Flutter.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
+		F1E124CD215A2C86001B56CE /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		F1E124CF215A2CA0001B56CE /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		F1E124DC215A2F38001B56CE /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = engine/Flutter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E124E5215A2F38001B56CE /* Flutter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +68,7 @@
 		F1E124A8215A27DA001B56CE = {
 			isa = PBXGroup;
 			children = (
+				F1E124CA215A2C00001B56CE /* Flutter */,
 				F1E124B3215A27DA001B56CE /* TestFlutter */,
 				F1E124B2215A27DA001B56CE /* Products */,
 			);
@@ -67,8 +94,20 @@
 				F1E124BF215A27DB001B56CE /* LaunchScreen.storyboard */,
 				F1E124C2215A27DB001B56CE /* Info.plist */,
 				F1E124C3215A27DB001B56CE /* main.m */,
+				F1E124CD215A2C86001B56CE /* Debug.xcconfig */,
+				F1E124CF215A2CA0001B56CE /* Release.xcconfig */,
 			);
 			path = TestFlutter;
+			sourceTree = "<group>";
+		};
+		F1E124CA215A2C00001B56CE /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				F1469792215A8562007513D0 /* flutter_assets */,
+				F1E124DC215A2F38001B56CE /* Flutter.framework */,
+				F1E124CB215A2C39001B56CE /* Flutter.xcconfig */,
+			);
+			path = Flutter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +120,8 @@
 				F1E124AD215A27DA001B56CE /* Sources */,
 				F1E124AE215A27DA001B56CE /* Frameworks */,
 				F1E124AF215A27DA001B56CE /* Resources */,
+				F1E124D1215A2D89001B56CE /* ShellScript */,
+				F1E124E8215A2F6F001B56CE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,12 +170,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E124C1215A27DB001B56CE /* LaunchScreen.storyboard in Resources */,
+				F1E124CC215A2C39001B56CE /* Flutter.xcconfig in Resources */,
+				F1E124D0215A2CA0001B56CE /* Release.xcconfig in Resources */,
 				F1E124BE215A27DB001B56CE /* Assets.xcassets in Resources */,
+				F1E124CE215A2C86001B56CE /* Debug.xcconfig in Resources */,
+				F1469793215A8562007513D0 /* flutter_assets in Resources */,
 				F1E124BC215A27DA001B56CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1E124D1215A2D89001B56CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1E124AD215A27DA001B56CE /* Sources */ = {
@@ -171,6 +236,7 @@
 /* Begin XCBuildConfiguration section */
 		F1E124C5215A27DB001B56CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E124CD215A2C86001B56CE /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -230,6 +296,7 @@
 		};
 		F1E124C6215A27DB001B56CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E124CF215A2CA0001B56CE /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -283,9 +350,15 @@
 		};
 		F1E124C8215A27DB001B56CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E124CD215A2C86001B56CE /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/engine",
+					"$(PROJECT_DIR)/Flutter",
+				);
 				INFOPLIST_FILE = TestFlutter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +372,15 @@
 		};
 		F1E124C9215A27DB001B56CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E124CF215A2CA0001B56CE /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/engine",
+					"$(PROJECT_DIR)/Flutter",
+				);
 				INFOPLIST_FILE = TestFlutter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
