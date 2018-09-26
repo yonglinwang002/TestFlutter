@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1469793215A8562007513D0 /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = F1469792215A8562007513D0 /* flutter_assets */; };
+		F1469795215A8C17007513D0 /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = F1469794215A8C17007513D0 /* flutter_assets */; };
 		F1E124B6215A27DA001B56CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E124B5215A27DA001B56CE /* AppDelegate.m */; };
 		F1E124B9215A27DA001B56CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E124B8215A27DA001B56CE /* ViewController.m */; };
 		F1E124BC215A27DA001B56CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E124BA215A27DA001B56CE /* Main.storyboard */; };
@@ -36,7 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F1469792215A8562007513D0 /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
+		F1469794215A8C17007513D0 /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
 		F1E124B1215A27DA001B56CE /* TestFlutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFlutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E124B4215A27DA001B56CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1E124B5215A27DA001B56CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		F1E124CA215A2C00001B56CE /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
-				F1469792215A8562007513D0 /* flutter_assets */,
+				F1469794215A8C17007513D0 /* flutter_assets */,
 				F1E124DC215A2F38001B56CE /* Flutter.framework */,
 				F1E124CB215A2C39001B56CE /* Flutter.xcconfig */,
 			);
@@ -171,10 +171,10 @@
 			files = (
 				F1E124C1215A27DB001B56CE /* LaunchScreen.storyboard in Resources */,
 				F1E124CC215A2C39001B56CE /* Flutter.xcconfig in Resources */,
+				F1469795215A8C17007513D0 /* flutter_assets in Resources */,
 				F1E124D0215A2CA0001B56CE /* Release.xcconfig in Resources */,
 				F1E124BE215A27DB001B56CE /* Assets.xcassets in Resources */,
 				F1E124CE215A2C86001B56CE /* Debug.xcconfig in Resources */,
-				F1469793215A8562007513D0 /* flutter_assets in Resources */,
 				F1E124BC215A27DA001B56CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

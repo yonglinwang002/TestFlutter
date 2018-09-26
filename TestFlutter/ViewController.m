@@ -35,8 +35,7 @@
 - (void)handleButtonAction {
     FlutterViewController* flutterViewController = [[FlutterViewController alloc] init];
     flutterViewController.view.frame = [UIScreen mainScreen].bounds;
-//    [flutterViewController setInitialRoute:@"route1"];
-    
+//    [flutterViewController setInitialRoute:@"route1"];//如果设置了router，可以到不同的页面
     [self presentViewController:flutterViewController animated:NO completion:nil];
 }
 
